@@ -1,5 +1,4 @@
 import React from "react";
-import { BiSolidCameraPlus } from "react-icons/bi";
 import { SlArrowRight } from "react-icons/sl";
 import Dribbblepic from "../Assets/dribbble.png";
 import Myimage from "../Assets/junior-LbbFGkZmG0w-unsplash (1).jpg";
@@ -20,7 +19,7 @@ function ThirdStep() {
           </div>
           <div className="flex flex-col md:flex-row w-full md:w-4/5 h-50 mt-4 justify-center items-center md:pr-9">
             <div className="h-40 w-40 rounded-full border-dashed border-2 border-zinc-300 flex justify-center items-center overflow-hidden">
-              <img src={Myimage} className="text-gray-400 object-cover" />
+              <img src={Myimage} className="text-gray-400 object-cover" alt="User Image"/>
             </div>
             <div className="w-full md:w-80 h-50 flex flex-col items-center md:items-start mt-4 md:mt-0">
               <button className="w-fit h-10 border-grey-300 border-2 rounded-md font-bold text-sm px-4 py-2 ml-5">Choose image</button>

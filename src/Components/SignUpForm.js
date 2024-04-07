@@ -11,8 +11,8 @@ function SignUpForm(){
                         <input type="text" id="name" className="bg-gray-100 border-gray-300  text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-2 px-6 placeholder:text-black" placeholder="John" required />
                     </div>
                     <div className='w-1/2'>
-                        <label for="username" className="block text-lg font-bold"><IoWarning className='inline-block text-red-500'/>Username</label>
-                        <input type="text" id="username" className="bg-red-50 border-gray-300  text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-2 px-6 placeholder:text-red-500" placeholder="John" required />
+                        <label for="UserName" className="block text-lg font-bold"><IoWarning className='inline-block text-red-500'/>Username</label>
+                        <input type="text" id="UserName" className="bg-red-50 border-gray-300  text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-2 px-6 placeholder:text-red-500" placeholder="John" required />
                     </div>
                 </Card>
                 <div className="mb-6">

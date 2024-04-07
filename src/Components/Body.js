@@ -5,7 +5,7 @@ function Body() {
         <Card className="w-full text-center mt-24 mb-28 text-gray-600 text-xl md:px-0 sm:px-6">
             <h1 className='text-4xl font-bold text-black'>Please verify your email...</h1>
             <div className='flex justify-center mt-2 mb-2'>
-                <img src={EmailImage} draggable="false"/>
+                <img src={EmailImage} draggable="false" alt="email image"/>
             </div>
             <p>Please verify your email address. We've sent a confirmation email to:</p>
             <p className='font-bold mb-4 mt-4 text-black'>account@refero.design</p>
