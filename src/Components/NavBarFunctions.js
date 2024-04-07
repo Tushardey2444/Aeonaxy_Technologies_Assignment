@@ -1,6 +1,6 @@
 import { IoSearch } from "react-icons/io5";
-import SuitcaseImage from './images/suitcase.png' 
-import myImage1 from '../Assets/junior-LbbFGkZmG0w-unsplash (1).jpg'
+import SuitcaseImage from './images/suitcase.png';
+import myImage1 from './images/Image123.jpg';
 function NavBarFunctions(){
     return (
         <div className='flex'>
