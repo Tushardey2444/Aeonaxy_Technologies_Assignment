@@ -18,7 +18,7 @@ function ThirdStep() {
             <p>Add an avatar</p>
           </div>
           <div className="flex flex-col md:flex-row w-full md:w-4/5 h-50 mt-4 justify-center items-center md:pr-9">
-            <div className="h-40 w-40 rounded-full border-dashed border-2 border-zinc-300 flex justify-center items-center overflow-hidden">
+            <div className="h-40 w-40 rounded-full border-none border-zinc-300 flex justify-center items-center overflow-hidden">
               <img src={Myimage} className="text-gray-400 object-cover" alt="UseImage"/>
             </div>
             <div className="w-full md:w-80 h-50 flex flex-col items-center md:items-start mt-4 md:mt-0">
