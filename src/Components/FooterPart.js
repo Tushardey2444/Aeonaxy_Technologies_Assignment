@@ -14,7 +14,7 @@ function FooterPart() {
                 <div className='flex sm:justify-center md:justify-end'>
                     <p><span className='font-bold text-black'>20,501,853 </span>shots dribbbled</p>
                     <div>
-                        <img src={Dribbble_logo} height="25px" width="25px" className='ml-2' alt='dribbble logo'/>
+                        <img src={Dribbble_logo} height="25px" width="25px" className='ml-2' alt='dribbble_logo'/>
                     </div>
                 </div>
             </Card>

@@ -6,7 +6,7 @@ function ThirdStep() {
   return (
     <>
       <div>
-        <div className="ml-4 mt-8 text-lg font-medium"><img src={Dribbblepic} alt="dribbblepic" className="mx-auto md:ml-4"></img></div>
+        <div className="ml-4 mt-8 text-lg font-medium"><img src={Dribbblepic} alt="dribbblepic4" className="mx-auto md:ml-4"></img></div>
         <div className="flex flex-col h-full w-full items-center px-4 md:px-0">
           <div className="text-3xl font-bold mt-10 w-full md:w-2/5 text-center md:text-left">
             <h1>Welcome! Let's create your profile</h1>
