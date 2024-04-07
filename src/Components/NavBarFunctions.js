@@ -1,6 +1,6 @@
-import demoImage from './images/demoImage.webp';
 import { IoSearch } from "react-icons/io5";
 import SuitcaseImage from './images/suitcase.png' 
+import myImage1 from '../Assets/junior-LbbFGkZmG0w-unsplash (1).jpg'
 function NavBarFunctions(){
     return (
         <div className='flex'>
@@ -11,7 +11,7 @@ function NavBarFunctions(){
             <div className='h-full p-1 mr-4 cursor-pointer'>
                 <img src={SuitcaseImage} draggable="false" alt="suitcaseImage"/>
             </div>
-            <img src={demoImage} alt="demoImage" className="rounded-3xl mr-6 cursor-pointer" height="10px" width="45px" draggable="false"/>
+            <img src={myImage1} alt="demoImage" className="rounded-3xl mr-6 cursor-pointer" height="10px" width="45px" draggable="false"/>
             <button type="submit" className="text-white bg-pink-500 font-medium rounded-lg px-4 text-center dark:hover:bg-pink-600">Upload</button>
         </div>
     );
